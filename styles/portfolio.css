@@ -264,15 +264,25 @@ main {
 /* connect styles */
 
 
-.connect {
+.section-container {
 
     display: flex;
     padding: 130px 230px;
     background: #FFF8F3;
-    /* gap: 117px; */
+    /* gap: 200px; */
     justify-content: space-between;
 
 
+}
+
+.message-medium{
+
+    width: 40%;
+}
+
+.contact-mediam{
+
+    width: 40%;
 }
 
 .media {
@@ -298,4 +308,22 @@ main {
     width: 100%;
     padding: 18px 30px;
     border: 0;
+}
+
+.connect input[type="text"], input[type="email"]{
+
+    height: 64px;
+}
+
+.connect a{
+
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.connect input[type="submit"]{
+
+    width: 150px;
+height: 64px;
+border-radius: 5px;
 }
