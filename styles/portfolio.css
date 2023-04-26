@@ -111,8 +111,8 @@ main {
 
 
 
-    max-width: 1140px;
-    margin: 0 auto;
+    /* max-width: 1140px; */
+    margin: 0 230px;
 
 }
 
@@ -255,7 +255,47 @@ main {
     margin-bottom: 30px;
 }
 
-.resume-btn{
+.resume-btn {
 
     text-align: center;
+    margin-bottom: 130px;
+}
+
+/* connect styles */
+
+
+.connect {
+
+    display: flex;
+    padding: 130px 230px;
+    background: #FFF8F3;
+    /* gap: 117px; */
+    justify-content: space-between;
+
+
+}
+
+.media {
+
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.media-description {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+
+}
+
+.connect input[type="text"], input[type="email"], textarea{
+
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+    border: 0;
 }
